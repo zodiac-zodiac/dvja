@@ -18,8 +18,8 @@ steps:
     echo See https://aka.ms/yaml
   displayName: 'Run a multi-line script'
   
-  - task: Veracode@3
-    inputs:
+- task: Veracode@3
+  inputs:
       ConnectionDetailsSelection: 'Credentials'
       apiId: '216140c591b12b51d1c1b8ffd0f8b86e'
       apiKey: 'abdb7edd8ad13c83bfa81589d279375aa48102cfb93be4b80238a1d5d6b7c4617b4c9ccb8d36ffd07685d63816b9f9c873dbf7cc338734ed07ac37cc9ecf4963'
